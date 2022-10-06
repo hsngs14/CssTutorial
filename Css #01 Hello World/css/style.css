@@ -1,0 +1,8 @@
+/* P is a selector
+color is an elemet 
+whire is a value */
+p{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+}

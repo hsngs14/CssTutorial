@@ -1,0 +1,99 @@
+
+div{
+    border-style: solid;
+    background-color: gray;
+}
+
+p{
+    color: red;
+}
+
+.one{
+    background-image: url("../images/jack.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+
+.two{
+    background-image: url("../images/jack.png");
+    background-attachment: fixed;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.three{
+    background-image: url("../images/jack.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.four{
+    background-image: url("../images/jack.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.five{
+    background-image: url("../images/jack.png");
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.six{
+    background-image: url("../images/jack.png");
+    background-repeat: no-repeat;
+    background-position: 10px 50px;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.seven{
+    background-image: url("../images/jack.png");
+    background-repeat: no-repeat;
+    background-size: 200px 350px;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.eight{
+    background-image: url("../images/bc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.nine{
+    background-image: url("../images/bc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}

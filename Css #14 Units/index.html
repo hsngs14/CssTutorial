@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+    <!-- external style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Resize the page height and width to see the changes</h1>
+    <div class="vw">
+        font-size:5vw; This is relative to the width of the screen.
+    </div>
+    <div class="vh">
+        font-size:5vh; This is relative to the height of the screen.
+    </div>
+    <hr>
+    <h1>Unit em:</h1>
+    <div class="parrent">
+        font-size:16px;
+        <div class="child">
+            font-size: 2em; em Unit is relative to the parrents size. 30px in this case.
+        </div>
+    </div>
+
+    <h1>Unit rem:</h1>
+    <div class="parrent">
+        default root font size for html is 16px
+        <div class="child2">
+            font-size: 2rem; em Unit is relative to the html size. 30px in this case.
+        </div>
+    </div>
+
+</body>
+</html>

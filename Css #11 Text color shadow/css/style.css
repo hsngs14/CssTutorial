@@ -1,0 +1,70 @@
+.shad{
+    padding:10px;
+    margin:10px;
+    text-shadow: 10px 10px 3px red;
+
+}
+.center{
+    padding: 10px;
+    margin:10px;
+    border: solid black;
+    text-align: center;
+}
+.right{
+    padding: 10px;
+    margin:10px;
+    border: solid black;
+    text-align: right;
+}
+.left{
+    padding: 10px;
+    margin:10px;
+    border: solid black;
+    text-align: left;
+    direction: ltr;
+}
+div{
+    padding: 10px;
+    margin: 10px;
+    border: solid black;
+    border-radius:10px;
+
+}
+.cap{
+    text-transform: capitalize;
+}
+.capev{
+    text-transform:uppercase;
+}
+
+h1{
+    text-transform: capitalize;
+}
+.leterspace{
+    letter-spacing: 3px;
+}
+.indent{
+    text-indent: 100px;
+}
+.lineheight{
+    line-height: 160%;
+    word-spacing: 10px;
+}
+.normal{
+    word-wrap:normal;
+}
+.break{
+    word-wrap:break-word;
+}
+.ellipsis{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    height: 100px;
+}
+.nowrap{
+    white-space: nowrap;
+    width: 300px;
+    height: 100px;
+}

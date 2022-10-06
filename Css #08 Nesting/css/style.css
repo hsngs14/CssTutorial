@@ -1,0 +1,16 @@
+div, p, a{
+    background-color:black;
+    color:white;
+    font-size: larger;
+    padding: 10px;
+}
+.border, .red, .radius{
+    color:red;
+    border:red solid 3px;
+    border-radius: 5px;
+}
+
+div p{
+    color:yellow;
+    
+}

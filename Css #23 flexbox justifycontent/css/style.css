@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+}
+h1, h2, p{
+    text-align: left;
+}
+
+
+
+.flex-child{
+    width: 20%;
+    height: 70px;
+    padding: 25px;
+    margin: 1px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+
+.flex{
+    width: 600px;
+    height: 500px;
+    padding:1px;
+    margin:20px auto;
+    background-color: white;
+    border:green 1px solid;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.flex-start{
+    
+    justify-content: flex-start;
+}
+
+.flex-center{
+    
+    justify-content: center;
+}
+
+.flex-end{
+    
+    justify-content: flex-end;
+}
+
+.col{
+    flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.blo{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.inli{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+}
+
+.inliblo{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+ div{
+    margin:10px;
+    padding:15px;
+    border: black solid 1px;
+    border-radius: 5px;
+ }

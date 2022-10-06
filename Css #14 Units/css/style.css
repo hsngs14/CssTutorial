@@ -1,0 +1,20 @@
+.vw{
+    font-size: 3vw;
+}
+.vh{
+    font-size: 3vh;
+}
+
+.parrent{
+    font-size: 16px;
+    border: solid black 3px;
+    padding:10px;
+    margin:10px;
+    border-radius: 10px;
+}
+.child{
+    font-size:2em;
+}
+.child2{
+    font-size:2rem;
+}

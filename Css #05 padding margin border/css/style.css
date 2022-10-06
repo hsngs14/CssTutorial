@@ -1,0 +1,14 @@
+div{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    border-width: 10px;
+    border-color: greenyellow;
+    border-style: solid;
+    font-size: large;
+    color:yellow;
+    padding: 30px;
+    margin:auto;
+    outline: 10px solid yellow;
+    border-radius: 15px;
+}

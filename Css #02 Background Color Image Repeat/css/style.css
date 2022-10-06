@@ -1,0 +1,53 @@
+
+div{
+    border-style: solid;
+    background-color: gray;
+}
+.one{
+    background-color: red;
+    font-size: 40px;
+    color:white;
+    padding:50px;
+    margin: 20px;
+}
+
+.two{
+    background-image: url("../images/jack.png");
+    background-repeat: repeat;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+p{
+    background-color: black;
+    color: yellow;
+}
+
+.three{
+    background-image: url("../images/jack.png");
+    background-repeat: repeat-x;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.four{
+    background-image: url("../images/jack.png");
+    background-repeat: repeat-y;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}
+
+.five{
+    background-image: url("../images/jack.png");
+    background-repeat: no-repeat;
+    font-size: 40px;
+    color:black;
+    padding:50px;
+    margin: 20px;
+}

@@ -1,0 +1,40 @@
+
+.one{
+    padding:10px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    background-color: gray;
+    color:white;
+    font-size: larger;
+    position:absolute;
+    z-index: 2;
+    margin-left: 60px;
+
+}
+.two{
+    padding:10px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    background-color: red;
+    color:white;
+    font-size: larger;
+    position:absolute;
+    margin:35px;
+    z-index: 3;
+}
+.three{
+    padding:10px;
+    position: relative;
+    height: 100px;
+    width: 400px;
+    background-color: blue;
+    color:white;
+    font-size: larger;
+    position:absolute;
+    margin:70px;
+    z-index: 1;
+    display: flex;
+    align-items:flex-end;
+}
