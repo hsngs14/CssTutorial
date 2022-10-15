@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding:0;
+}
+h1, h2, p{
+    text-align: left;
+    margin-top: 100px;
+}
+.red{
+    color: red;
+}
+
+
+
+.flex{
+    /* width: 600px; */
+    height: 500px;
+    padding:1px;
+    margin:20px auto;
+    background-color: white;
+    border:green 1px solid;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.col{
+    /* width: 600px; */
+    height: 500px;
+    padding:1px;
+    margin:20px auto;
+    background-color: white;
+    border:green 1px solid;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+
+.flex-child{
+    padding: 25px;
+    margin: 1px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+.grow-1{
+    flex-grow: 1;
+    padding: 25px;
+    margin: 1px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+.grow-2{
+    flex-grow: 2;
+    padding: 25px;
+    margin: 1px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+.grow-3{
+    flex-grow: 3;
+    padding: 25px;
+    margin: 1px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+.grow-5{
+    flex-grow: 3;
+    padding: 25px;
+    margin: 1px;
+    background-color: green;
+    border-radius: 10px;
+}
+.holy-grail{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: white;
+}
+.header{
+    background-color: red;
+    flex:0 1 50px;
+}
+.main{
+    display: flex;
+    flex: 1 1 0;
+    /* min-height: 0px; */
+    overflow: auto;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+    flex:0 1 auto;
+    
+}
+
+.content{
+    background-color: gray;
+    flex: 1 1 auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    
+}
+.side{
+    background-color: blue ;
+    color: red;
+    order: -1;
+    overflow: hidden;
+    flex:0 1 20%;
+    
+    
+}

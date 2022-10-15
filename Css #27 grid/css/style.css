@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    padding:0;
+}
+h1, h2, p{
+    text-align: left;
+    margin-top: 100px;
+}
+.grid{
+    margin:10px;
+    padding:10px;
+    /* background-color: yellowgreen; */
+    color:white;
+    display: grid;
+    grid-template-columns: 100px repeat(2, 1fr) auto auto;
+    grid-template-rows: 70px repeat(3, 1fr) auto 40px;
+    gap: 5px;
+    justify-content: space-evenly;
+    
+    height: 900px;
+}
+.grid2{
+    margin:10px;
+    padding:10px;
+    /* background-color: yellowgreen; */
+    color:white;
+    display: grid;
+    grid-template-columns: 100px repeat(2, 50px) auto auto;
+    grid-template-rows: 70px repeat(3, 50px) 30px 40px;
+    gap: 5px;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+    height: 900px;
+}
+.grid div, .grid2 div{
+    padding:10px;
+    background-color: gray;
+    border: solid white 2px;
+    border-radius: 5px;
+    margin:5px;
+}
